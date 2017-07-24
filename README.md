@@ -1,1 +1,1 @@
-# fe_buildingConnected
+A frontend search functionality in plain JS.
