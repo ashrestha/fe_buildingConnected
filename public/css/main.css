@@ -1,0 +1,10 @@
+#main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 4em;
+}
+
+
+td > img{
+    height: 50px;
+}
