@@ -10,8 +10,8 @@
     </head>
     <body>
         <div id="main">
-            <div>
-                <input type="text" name="search" placeholder="Search here ...">
+            <div id="search-companies">
+                <input type="text" onkeyup="callSearch()" name="search" placeholder="Search here ..." id="search">
             </div>
             <table>
                 <thead>
@@ -23,8 +23,8 @@
 
             </tbody>
             </table>
-
         </div>
         <script src="js/main.js"></script>
+        <script src="js/search.js"></script>
     </body>
 </html>

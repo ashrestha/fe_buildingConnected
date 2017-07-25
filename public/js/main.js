@@ -9,7 +9,7 @@ xhr.onload = function(){
             mainContent += '<tr> <td>';
             mainContent += '<img src="'+ responseObject.results[i].avatarUrl + '" ';
             mainContent += 'alt="' + responseObject.results[i].name + '" />';
-            mainContent += '</td><td>';
+            mainContent += '</td><td class="compName">';
             mainContent += '<p>' +responseObject.results[i].name + ' </p>'; 
             mainContent += '</td></tr>'; 
         }
